@@ -8,7 +8,7 @@ fill out the form
 close the browser
 Note: use name or id as locators
 ****/
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception  {
         WebDriver driver = new ChromeDriver();
         driver.get("https://parabank.parasoft.com/parabank/register.htm;jsessionid=B8DD31FF0AFEDBDF4454B27BBC5C05B0%22");
         driver.manage().window().maximize();

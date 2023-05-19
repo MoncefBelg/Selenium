@@ -8,7 +8,7 @@ enter the username "Tester"
 enter the password "test"
 get the title of the webPage and confirm that it is  "Web Orders Login"
 ------------------__------__**happy coding */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception  {
         WebDriver driver=new ChromeDriver();
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
         driver.findElement(By.name("ctl00_MainContent_username")).sendKeys("Tester");

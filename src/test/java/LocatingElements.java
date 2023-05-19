@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LocatingElements {
-    public static void main(String[] args) {
+    public static void main(String[] args)  throws Exception {
         //instance
         WebDriver driver=new ChromeDriver();
         //Fb.com
