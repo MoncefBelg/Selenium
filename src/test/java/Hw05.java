@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class Hw05 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //HW1:
         //goto   http://practice.syntaxtechs.net/basic-select-dropdown-demo.php
         //select , tuesday, thursday and friday one by one

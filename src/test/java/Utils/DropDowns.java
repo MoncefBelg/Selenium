@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class DropDowns extends commonMethods{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         driver.get("www.fb.com");
 
         String url="http://practice.syntaxtechs.net/basic-radiobutton-demo.php";
